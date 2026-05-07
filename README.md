@@ -24,5 +24,6 @@ Credex AI Spend Audit is a free tool designed to help startup founders and engin
 5. **Direct API vs LangChain:** Used direct fetch/SDK calls to Anthropic instead of a framework like LangChain to reduce bundle size and keep the architecture simple, since we only need a single summary generation.
 
 ## Deployed URL
-https://ai-subscription-audit.vercel.app/
-https://vercel.com/manish20as-projects/ai-subscription-audit
+## https://ai-subscription-audit.vercel.app/
+
+## https://vercel.com/manish20as-projects/ai-subscription-audit
