@@ -65,7 +65,7 @@ export default function Home() {
     setTimeout(() => {
       let totalCurrent = 0;
       let totalSavings = 0;
-      let recommendations = [];
+      let recommendations: any[] = [];
 
       // Basic hardcoded logic
       const hasCursor = tools.some(t => t.name === "Cursor");
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
               <div className="space-y-2">
                 <Label>Primary Use Case</Label>
-                <Select value={useCase} onValueChange={setUseCase}>
+                <Select value={useCase} onValueChange={(v) => v && setUseCase(v)}>
                   <SelectTrigger className="bg-neutral-900 border-neutral-800">
                     <SelectValue />
                   </SelectTrigger>
